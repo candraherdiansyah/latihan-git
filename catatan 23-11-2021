@@ -1,0 +1,10 @@
+BAGIAN 1
+directory -> tempat folder yang sedang digunakan
+mkdir namadir -> membuat directory/folder baru
+cd namadir -> berpindah directory/tempat sesuai keinginan
+cd .. -> turun directory 1 level
+cd ... -> turun directory ke awal/akar directory/folder
+code . -> membuka vscode bersamaan dengan folder/directory
+
+
+BAGIAN 2 (GIT)
