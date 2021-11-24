@@ -1,0 +1,30 @@
+BAGIAN 1
+directory -> tempat folder yang sedang digunakan
+mkdir namadir -> membuat directory/folder baru
+cd namadir -> berpindah directory/tempat sesuai keinginan
+cd .. -> turun directory 1 level
+cd ... -> turun directory ke awal/akar directory/folder
+code . -> membuka vscode bersamaan dengan folder/directory
+
+
+BAGIAN 2 (GIT)
+#Belum Punya Repository#
+git init -> membuat repository di dalam directory/folder
+git config user.name "nama sendiri" 
+-> konfigurasi nama
+git config user.email "email sendiri" 
+-> konfigurasi nama
+git remote add origin 
+https://personal_access_token@github.com/username/repo.git
+-> memberikan akses / sumber repo di github
+git add . -> menambahkan semua perubahan yang sudah dilakukan
+git commit -m"pesan" -> memberikan commit dan pesan apa saja
+                        yang sudah dilakukan
+git push origin master 
+-> menambahkan semua perubahan dan komit
+ke dalam server github melalui branch "master"
+
+#Sudah Punya Repository#
+git add .
+git commit -m"pesan"
+git push origin master
