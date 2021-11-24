@@ -1,0 +1,7 @@
+Reset konfigurasi git
+git config --global --unset user. name.
+git config --global --unset user. email.
+
+tambahkan konfigurasi git
+git config user.name "your name"
+git config user.email "your email"
